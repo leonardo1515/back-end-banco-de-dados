@@ -1,0 +1,28 @@
+// passos para criar um arquivo typescript para o back ende
+// npm - y
+// npm install express
+// npm install -D typescript ts-node-dev @types/node @types/express
+// npm init -y
+
+// para gerar id unico OBS.(gera uma string)
+
+// npm install uuid
+// npm install -D @types/uuid
+
+// para o dotenv
+// npm install dotenv cors
+
+// para o cors
+// npm install -D @types/cors
+
+// para faxer requisições http no fronte ende
+// npm install axios
+
+// codigo para colar no packgr.json em scripst serve para configuração do render
+// "postinstall": "tsc"
+
+// manha do postama para não ficar copiando o ID sempre
+// pm.sendRequest(`${pm.environment.get("base_url")}/growdever`, (err, res) => {
+// const result = res.json();
+// pm.environment.set("growdev_id", result.data[0].id);
+// });
